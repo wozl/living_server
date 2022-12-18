@@ -1,0 +1,7 @@
+rtmp {
+	server{
+		listen 1935; #监听流媒体端口
+		chunk_size 4000;
+		#drop_idle_publisher 5s;
+    }
+}
